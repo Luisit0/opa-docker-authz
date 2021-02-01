@@ -17,7 +17,7 @@
     "mounts": [
        {
             "name": "policy",
-            "source": "/etc/docker",
+            "source": "\etc\docker",
             "destination": "/opa",
             "type": "none",
             "options": ["bind", "ro"],
